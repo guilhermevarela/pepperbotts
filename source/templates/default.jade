@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/css/index.css')
+    title Personal assistant bot
+  body
+    .header
+      h1.page-title Pepper Botts
+
+    #wrapper
+      #menu
+        p.welcome
+          | Welcome, 
+          b
+        p.logout
+          a#exit(href='#') Exit Chat
+        div(style='clear:both')
+      #chatbox
+      form(name='message', action='')
+        input#usermsg(name='usermsg', type='text', size='63')
+        input#submitmsg(name='submitmsg', type='submit', value='Send')
+      script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js')
+      script(type='text/javascript').
+        // jQuery Document
+        $(document).ready(function(){
+        });
+    
+
+    .footer
+      p Copyright 

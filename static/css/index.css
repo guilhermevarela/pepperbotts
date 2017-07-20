@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700");
+/* CSS Document */
+body {
+  font: 12px arial;
+  color: #222;
+  text-align: center;
+  padding: 35px;
+}
+form,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+input {
+  font: 12px arial;
+}
+a {
+  color: #00f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#wrapper,
+#loginform {
+  margin: 0 auto;
+  padding-bottom: 25px;
+  background: #ebf4fb;
+  width: 504px;
+  border: 1px solid #acd8f0;
+}
+#loginform {
+  padding-top: 18px;
+}
+#loginform p {
+  margin: 5px;
+}
+#chatbox {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  height: 270px;
+  width: 430px;
+  border: 1px solid #acd8f0;
+  overflow: auto;
+}
+#usermsg {
+  width: 395px;
+  border: 1px solid #acd8f0;
+}
+#submit {
+  width: 60px;
+}
+.error {
+  color: #f00;
+}
+#menu {
+  padding: 12.5px 25px 12.5px 25px;
+}
+.welcome {
+  float: left;
+}
+.logout {
+  float: right;
+}
+.msgln {
+  margin: 0 0 2px 0;
+}
+/**
+  margin 0
+  padding 0
+  box-sizing border-box
+
+body
+  font-family 'Source Code Pro', monospace
+
+.header
+  background url('/images/robot.jpg')
+  background-position center
+
+  .page-title
+    font-weight 200
+    font-size 80px
+    text-align center
+    padding 100px
+    text-transform uppercase
+    color #fff
+
+.nav
+  background #000
+  text-align center
+
+  li
+    display inline-block
+
+  a
+    display inline-block
+    padding 20px
+    color #fff
+    text-decoration none
+
+    &:hover
+      background-color #3AB795
+      text-decoration underline
+
+.main-content
+  margin 50px auto
+  max-width 600px
+
+  p
+    line-height 1.6
+    margin-bottom 1.7em
+
+.footer
+  margin 50px auto
+  max-width 600px
+  border-top 1px solid #444
+  padding 20px 0
+
+  p
+    color #444
+    font-size 12px
+*/

@@ -1,8 +1,8 @@
-{
+  {
   "name": "pepperpotts",
   "version": "0.1.0",
   "description": "Personal assistant bot",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build-css": "stylus source/stylesheets/index.styl -o static/css",
     "watch-css": "stylus source/stylesheets/index.styl -o static/css -w",
@@ -17,6 +17,7 @@
     "express": "^4.15.3",
     "jade": "^1.11.0",
     "morgan": "^1.8.2",
+    "nodemon": "^1.9.2",
     "stylus": "^0.54.5"
   }
 }

@@ -1,6 +1,6 @@
 # README #
 
-This is a simple bot integrating 
+This is a simple node.js + express website frontend for AZURE framework assistant bot
 
 * Azure Cloud Services
 * BotFramework
@@ -21,7 +21,7 @@ This is a simple bot integrating
 * Microsoft Sample [bot alarm sample.](https://github.com/Microsoft/BotBuilder/blob/master/Node/examples/basics-naturalLanguage/app.js)
 
 
-### Begin incantation by running ###
+### Begin incantations by running ###
 ```
 node index.js
 
